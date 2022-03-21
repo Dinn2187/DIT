@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid red;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: calc(50% - 75px);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  
+  0%   {background-color:yellow; left:0px; transform: rotate(90deg);}  
+  25%  {background-color:red; left:0px; transform: rotate(180deg);}
+  50%  {background-color:orange; left:0px; transform: rotate(270deg);}
+  75%  {background-color:green; left:0px; transform: rotate(360deg);}
+  100% {background-color:yellow; left:0px; transform: rotate(450deg);}  
+}
+</style>
+</head>
+<body>
+
+
+<h1><center>CSS Square Animation</center></h1>
+<div></div>
+
+</body>
+</html>
